@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\ivan\documents\visual studio 2013\projects\task5_generator\task5_generator\obj\debug\intermediatexaml\task5_generator.exe" HashGuid="c8ee362c-ebbf-b5ba-e6ed-f08c469ed3d6" />
+    <ReferenceAssembly PathName="c:\users\ivan\documents\visual studio 2013\projects\task5_generator\packages\ix-async.1.2.2\lib\portable-windows8+net45+wp8\system.interactive.async.dll" HashGuid="bbf6ad12-52ba-4bc8-b3fe-511fe73d8c81" />
+    <ReferenceAssembly PathName="c:\users\ivan\documents\visual studio 2013\projects\task5_generator\packages\microsoft.net.http.2.2.28\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\ivan\documents\visual studio 2013\projects\task5_generator\packages\microsoft.net.http.2.2.28\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-3FB8TJ3RERD</Machine>
+    <WindowsUser>Ivan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1a5f3411-0ca8-4c1d-968b-36304ae27e18</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>D26F53685018ADD1980AF300BCE3AA360DBC3BDA31F3AD1A19DCDE69AF0A591D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1a5f3411-0ca8-4c1d-968b-36304ae27e18_1.0.0.0_neutral__gk938hsxq58a8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1a5f3411-0ca8-4c1d-968b-36304ae27e18_gk938hsxq58a8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1a5f3411-0ca8-4c1d-968b-36304ae27e18</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ivan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-30T23:08:05.145</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\Task5_Generator.exe">
+      <PackagePath>Task5_Generator.exe</PackagePath>
+      <Modified>2014-11-30T23:38:25.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\packages\Ix-Async.1.2.2\lib\portable-windows8+net45+wp8\System.Interactive.Async.dll">
+      <PackagePath>System.Interactive.Async.dll</PackagePath>
+      <Modified>2014-11-29T13:02:47.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\packages\Microsoft.Net.Http.2.2.28\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2014-11-29T09:59:01.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\packages\Microsoft.Net.Http.2.2.28\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2014-11-29T09:59:01.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-29T11:36:54.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-29T13:15:34.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\Task5_Generator.xr.xml">
+      <PackagePath>Task5_Generator.xr.xml</PackagePath>
+      <Modified>2014-11-29T12:04:48.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-30T23:08:04.876</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

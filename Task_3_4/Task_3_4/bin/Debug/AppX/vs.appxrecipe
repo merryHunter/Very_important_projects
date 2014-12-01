@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-3FB8TJ3RERD</Machine>
+    <WindowsUser>Ivan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>4c1265d1-5565-450f-a1b2-273a6ceca010</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>5C6F123B48D5FB802D2A3864791EC4834BEB87CE6D9114A6CB4A9E237D4581B4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4c1265d1-5565-450f-a1b2-273a6ceca010_1.0.0.0_neutral__gk938hsxq58a8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4c1265d1-5565-450f-a1b2-273a6ceca010_gk938hsxq58a8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4c1265d1-5565-450f-a1b2-273a6ceca010</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ivan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-30T17:04:11.208</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\Task_3_4.exe">
+      <PackagePath>Task_3_4.exe</PackagePath>
+      <Modified>2014-11-30T19:38:29.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-30T17:04:09.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-30T17:57:18.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\Task_3_4.xr.xml">
+      <PackagePath>Task_3_4.xr.xml</PackagePath>
+      <Modified>2014-11-30T17:53:25.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-30T17:04:10.390</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

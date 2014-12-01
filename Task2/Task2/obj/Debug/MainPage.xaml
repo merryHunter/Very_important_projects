@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Task2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Task2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' Content="Action" HorizontalAlignment="Left" Margin="331,140,0,0" VerticalAlignment="Top" Height="120" Width="208"                        FontSize="24"/>
+        <Button x:ConnectionId='2' Content="Func" HorizontalAlignment="Left" Margin="756,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.173,0.353" Height="120" Width="223" FontSize="24"                      />
+        <Button x:ConnectionId='3' Content="Func &quot; Task, T &quot;" HorizontalAlignment="Left" Margin="331,420,0,0" VerticalAlignment="Top" Height="120" Width="208" FontSize="18"                           />
+        <Button x:ConnectionId='4' Content="Func &quot; Task, Task &quot;T&quot; &quot;" HorizontalAlignment="Left" Margin="756,420,0,0" VerticalAlignment="Top" Height="120" Width="223" FontSize="18"                               />
+
+    </Grid>
+</Page>
+

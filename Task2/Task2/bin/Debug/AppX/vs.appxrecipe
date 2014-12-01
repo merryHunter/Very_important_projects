@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-3FB8TJ3RERD</Machine>
+    <WindowsUser>Ivan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b4bf691b-eb71-4728-831e-19f2e4fc51a1</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>A61A0C113D4E98B8050A5C7F939B46359D9DFC6B05B9853E24E4658111A15C8F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b4bf691b-eb71-4728-831e-19f2e4fc51a1_1.0.0.0_neutral__gk938hsxq58a8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b4bf691b-eb71-4728-831e-19f2e4fc51a1_gk938hsxq58a8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b4bf691b-eb71-4728-831e-19f2e4fc51a1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ivan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-30T22:58:02.907</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\Task2.exe">
+      <PackagePath>Task2.exe</PackagePath>
+      <Modified>2014-11-30T22:58:01.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T06:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-30T20:34:29.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-30T22:58:00.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\Task2.xr.xml">
+      <PackagePath>Task2.xr.xml</PackagePath>
+      <Modified>2014-11-30T21:49:41.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ivan\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-30T22:58:01.548</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+c:\users\ivan\documents\visual studio 2013\Projects\Plugin library\Plugin library\bin\Debug\Plugin library.exe.config
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Plugin library\Plugin library\obj\Debug\Plugin library.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Plugin library\Plugin library\bin\Debug\Plugin library.exe
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Plugin library\Plugin library\bin\Debug\Plugin library.pdb
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Plugin library\Plugin library\obj\Debug\Plugin library.exe
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Plugin library\Plugin library\obj\Debug\Plugin library.pdb

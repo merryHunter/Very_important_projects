@@ -1,0 +1,13 @@
+c:\users\ivan\documents\visual studio 2013\Projects\Task6\Task6\bin\Debug\Task6.exe.config
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\bin\Debug\Task6.exe
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\bin\Debug\Task6.pdb
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\obj\Debug\Task6.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\obj\Debug\MainWindow.baml
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\obj\Debug\MainWindow.g.cs
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\obj\Debug\App.g.cs
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\obj\Debug\Task6_MarkupCompile.cache
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\obj\Debug\Task6.g.resources
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\obj\Debug\Task6.Properties.Resources.resources
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\obj\Debug\Task6.csproj.GenerateResource.Cache
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\obj\Debug\Task6.exe
+C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task6\Task6\obj\Debug\Task6.pdb

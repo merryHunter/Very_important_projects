@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-3FB8TJ3RERD</Machine>
+    <WindowsUser>Ivan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1a5f3411-0ca8-4c1d-968b-36304ae27e18</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\Task5_Generator.exe">
+      <PackagePath>Task5_Generator.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\packages\Ix-Async.1.2.2\lib\portable-windows8+net45+wp8\System.Interactive.Async.dll">
+      <PackagePath>System.Interactive.Async.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\packages\Microsoft.Net.Http.2.2.28\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\packages\Microsoft.Net.Http.2.2.28\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\Task5_Generator.xr.xml">
+      <PackagePath>Task5_Generator.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task5_Generator\Task5_Generator\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
