@@ -56,7 +56,8 @@ namespace Task6
             }
             catch (Exception exc)
             {
-                MessageBoxResult warning = MessageBox.Show("Could not load dll !");   
+                MessageBoxResult warning = MessageBox.Show("Could not load dll \n" +
+                                "Try change access properties of dll at Debug directory");   
             }
         }
         /// <summary>
