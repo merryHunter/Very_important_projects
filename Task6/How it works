@@ -1,0 +1,6 @@
+Click "Create() Demonstrate" and notice assembly's number.
+When you click "Add assembly", app load assembly from ...\\Debug directory.
+There are dll libraries located in the ...\\bin directory of project, so you only need to copy only one of them into
+...\\Debug directory. If loading dll causes exception, try to unblock dll files in their file's property.
+After that, try "Create() Demonstrate" again and notice the assembly's number difference. 
+There is a background assembly scanning.
