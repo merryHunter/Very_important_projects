@@ -8,15 +8,17 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Mutex button" HorizontalAlignment="Left" Margin="539,67,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.877,0.948" Height="100" Click="OnButtonClicked" Width="146">
+        <Button Content="Mutex" HorizontalAlignment="Left" Margin="539,67,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.877,0.948" Height="100" Click="OnMutexClicked" Width="146">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.0"/>
             </Button.RenderTransform>
         </Button>
         <TextBox Name ="textBox" Margin="687,182,292,0" TextWrapping="Wrap" Text="Mutex and critical section info." VerticalAlignment="Top" RenderTransformOrigin="-0.522,0.757" Height="500" ScrollViewer.VerticalScrollBarVisibility="Visible"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="393,67,0,0" VerticalAlignment="Top" Height="100" Width="152" Click="onParalelBoxClicked"/>
-        <TextBox Name ="paralelBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Press button to be convinced in UI responsiveness." VerticalAlignment="Top" Height="500" Width="400" ScrollViewer.VerticalScrollBarVisibility="Visible" Margin="147,182,0,0" />
-        <Button Content="Critical code start" HorizontalAlignment="Left" Margin="684,67,0,0" VerticalAlignment="Top" Click="OnCloneBoxCLicked" Height="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="388,67,0,0" VerticalAlignment="Top" Height="100" Width="152" Click="onParalelBoxClicked"/>
+        <TextBox Name ="paralelBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Press button to be convinced in UI responsiveness." VerticalAlignment="Top" Height="500" Width="400" ScrollViewer.VerticalScrollBarVisibility="Visible" Margin="137,182,0,0" />
+        <Button Content="Critical code start" HorizontalAlignment="Left" Margin="684,67,0,0" VerticalAlignment="Top" Click="OnCriticalCodeClicked" Height="100"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="539,291,0,0" VerticalAlignment="Top" Height="100" Width="146" Click="onClearBtnClicked"/>
+        <Button Content="Mutex (using)" HorizontalAlignment="Left" Margin="539,179,0,0" VerticalAlignment="Top" Height="100" Width="146" Click="onMutexUsingClicked"/>
 
     </Grid>
 </Page>

@@ -7,44 +7,44 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>4c1265d1-5565-450f-a1b2-273a6ceca010</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\Task_3_4.exe">
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\bin\Debug\Task_3_4.exe">
       <PackagePath>Task_3_4.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\Task_3_4.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\bin\Debug\Task_3_4.xr.xml">
       <PackagePath>Task_3_4.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Task_3_4\Task_3_4\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Ivan\Documents\Visual Studio 2013\Projects\Very important projects\Task_3_4\Task_3_4\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

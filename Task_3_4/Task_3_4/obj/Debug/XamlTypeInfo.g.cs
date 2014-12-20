@@ -529,3 +529,4 @@ namespace Task_3_4.Task_3_4_XamlTypeInfo
 }
 
 
+

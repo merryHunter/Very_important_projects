@@ -1,0 +1,4 @@
+Click quickly on "Mutex" ot "Mutex(using)" buttons.
+Operation per click will be execited throw 3 seconds, so wait.
+During this time try to click "Button".
+"Critical code start" executes synchronously in the same UI thread.

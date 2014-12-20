@@ -25,93 +25,121 @@ namespace Task_3_4
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        #region Class members
+#region Class members
 
         private static SyncMutex mutex = new SyncMutex();
 
-        /// This array will be filled by random integers and then sorted.
-        /// Sorting takes some time so we got 
-        /// time-long operation in critical section.
-        private int[] arr;
-
-        /// Considering buble-sort complexity, it will be enough.
-        private static int N = 20000;
-        
+        /// To counting threads tried capture lock and enter the critical section.
         private static volatile Queue<int> threads = new Queue<int>();
 
         private static volatile int threadCount = 0;
 
-        #endregion
+        /// Buffer(logger) for all actions connected with mutex and threads.
+        private static volatile string output = "";
+
+        /// For printing a little bit more info about mutex's actions.
+        Stopwatch stopWatch = new Stopwatch();
+
+#endregion
 
         public MainPage()
         {
             this.InitializeComponent();
-            arr = new int[N];
-            Random r = new Random();
-            for (var i = 0; i < N; ++i)
-                arr[i] = r.Next();
-
+            stopWatch.Start();
+            output += '\n';
         }
 
-        #region Class methods
-
-        private async void OnButtonClicked(object sender, RoutedEventArgs e)
-        {
-             await SortRandomArrayForFiveSeconds();
+#region Class methods
         
-        }
-
-        private async Task SortRandomArrayForFiveSeconds()
+        public async Task LongTimeOperation()
         {
             threads.Enqueue(++threadCount);
-            textBox.Text += threads.Last().ToString() + "-th try Lock...\n";
-
+            output += threads.Last().ToString() + "-th try Lock at " + String.Format("{0:00}:{1:00}\n",
+                                        stopWatch.Elapsed.Seconds, stopWatch.Elapsed.Milliseconds);
             await mutex.Lock();
-                textBox.Text += threads.Peek().ToString() + "-th entered in ";
-                CriticalSection();
+                CriticalSection(false); 
             mutex.Release();
 
-            textBox.Text += threads.Dequeue().ToString() + "-th released...\n";
+            output += threads.Dequeue().ToString() + "-th release at  " + String.Format("{0:00}:{1:00}\n",
+                                         stopWatch.Elapsed.Seconds, stopWatch.Elapsed.Milliseconds);
         }
-          
-        private void CriticalSection()
+
+        public async Task LongTimeOperationUsing()
         {
-            textBox.Text += "critical section start...";
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
-            /// Bubble-sort.
-            int temp = 0;
-            for (int write = 0; write < arr.Length; write++)
-            {
-                for (int sort = 0; sort < arr.Length - 1; sort++)
-                {
-                    if (arr[sort] > arr[sort + 1])
-                    {
-                        temp = arr[sort + 1];
-                        arr[sort + 1] = arr[sort];
-                        arr[sort] = temp;
-                    }
-                }
-            }
-            stopWatch.Stop();
+           threads.Enqueue(++threadCount);
+           output += threads.Last().ToString() + "-th try Lock at " + String.Format("{0:00}:{1:00}\n",
+                                        stopWatch.Elapsed.Seconds, stopWatch.Elapsed.Milliseconds);
+
+           using (await mutex.LockSection())
+           {
+               CriticalSection(false);
+           }
+
+           output += threads.Dequeue().ToString() + "-th release at  " + String.Format("{0:00}:{1:00}\n",
+                                        stopWatch.Elapsed.Seconds, stopWatch.Elapsed.Milliseconds);
+        }
+
+        private async void OnMutexClicked(object sender, RoutedEventArgs e)
+        {
+            await Task.Run(() => LongTimeOperation());
+            textBox.Text += output;
+            output = "";
+        }
+
+        private async void onMutexUsingClicked(object sender, RoutedEventArgs e)
+        {
+            await Task.Run(() => LongTimeOperationUsing());
+            textBox.Text += output;
+            output = "";
+        }
+
+        /// <summary>
+        /// Critical code section, mutex must allow only one thread entered.
+        /// </summary>
+        /// <param name="isSynchronouslyCall">
+        /// True if it called by pressing "Critical code start".
+        /// It means that code will be executing in the UI thread.
+        /// </param>
+        private void CriticalSection(bool isSynchronouslyCall)
+        {
+            if (isSynchronouslyCall)
+                output += " critical section starts...\n";
+            else output += threads.Peek().ToString() + "critical section starts...\n";
+
+            //Long operation.
+            Task.Delay(3000).Wait();
+
             TimeSpan ts = stopWatch.Elapsed;
-            textBox.Text += "...end ";
-            // Format and display the TimeSpan value. 
-            textBox.Text += String.Format("{0:00}:{1:00}:{2:00}.{3:00}\n",
-              ts.Hours, ts.Minutes, ts.Seconds,
-                ts.Milliseconds );
+            if (isSynchronouslyCall)
+                output += " ends at\t " + String.Format("{0:00}:{1:00}\n", ts.Seconds, ts.Milliseconds);
+            else output += threads.Peek().ToString() + " ends at\t " + String.Format("{0:00}:{1:00}\n",
+                                                               ts.Seconds, ts.Milliseconds );
         }
 
         private void onParalelBoxClicked(object sender, RoutedEventArgs e)
         {
             paralelBox.Text += "Clicked\n";
         }
-        
-        /// This method run synchronously!
-        private void OnCloneBoxCLicked(object sender, RoutedEventArgs e)
+
+        private void onClearBtnClicked(object sender, RoutedEventArgs e)
         {
-            CriticalSection();
+            textBox.Text = "";
+            paralelBox.Text = "";
+            output = "";
+            threadCount = 0;
+            threads.Clear();
+            stopWatch.Restart();
         }
-        #endregion
+
+        private void OnCriticalCodeClicked(object sender, RoutedEventArgs e)
+        {
+            CriticalSection(true);
+            textBox.Text += output;
+            output = "";
+        }
+
+       
+#endregion
+
     }
 }
